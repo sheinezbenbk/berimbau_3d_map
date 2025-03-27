@@ -1,0 +1,12 @@
+{
+    "name": "berimbau-3d-map",
+    "version": "1.0.0",
+    "description": "Carte mondiale interactive avec modèle 3D de bérimbau",
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "scripts": {
+      "start": "serve -s ."
+    }
+  }
