@@ -127,6 +127,9 @@ const WorldMapLeaflet = () => {
                                     shadow-softness="0.5"
                                     exposure="1"
                                     style={{width: '100%', height: '100%'}}>
+                 onload={() => console.log('Modèle chargé avec succès')}
+    onerror={(error) => console.error('Erreur de chargement du modèle:', error)}>
+
                                 </model-viewer>
                             </div>
 
