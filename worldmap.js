@@ -118,7 +118,7 @@ const WorldMapLeaflet = () => {
                             {/* Modèle 3D - Colonne de gauche */}
                             <div className="md:w-1/2 h-96 bg-gradient-to-b from-gray-900 to-black flex items-center justify-center rounded-lg border border-emerald-800">
                                 <model-viewer
-                                    src="Berimbau_SAE402.glb"
+                                    src="https://cdn.jsdelivr.net/gh/sheinezbenbk/Berimbau_SAE402@main/Berimbau_SAE402.glb"
                                     alt="Modèle 3D de Bérimbau"
                                     auto-rotate
                                     camera-controls
